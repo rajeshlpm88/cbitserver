@@ -3,8 +3,7 @@ const mongoose = require('mongoose')
 //const cors=require('cors')
 const alienRouter = require('./routes/aliens')
 
-            
-//const url = 'mongodb+srv://rajeshlpm88:9944836316@cluster0.yzw2hpn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+     
 const url = 'mongodb://127.0.0.1:27017/cbit'
 const app = express()
 mongoose.connect(url)
